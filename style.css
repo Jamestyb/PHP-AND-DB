@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;1,300&display=swap');
+
+
+
+*{
+
+    font-family: 'Lato', sans-serif;
+
+}
+
+
+
+
+form, H1{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+}
+
+input[type="submit"]{
+
+    cursor:pointer;
+
+}
