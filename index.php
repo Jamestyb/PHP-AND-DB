@@ -5,33 +5,22 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>DB And PHP</title>
+    <title>PHP and DB</title>
 </head>
 <body>
 <H1>
-FORMULARIO
+FORMULARIO DOS ALUNOS
 </H1>
 
 <!-- Formulário HTML -->
 <form action="" method="post">
-  <label>Nome: </label><br>
   <input type="text" name="nome" placeholder="Nome"><br>
-  <label>Sobrenome: </label><br>
-  <input type="text" name="sobrenome"><br>
-  <label>Turma: </label><br>
-  <input type="text" name="turma"><br>
-
-  <input type="submit" value="Gravar">
-
-
   
-
-
-
-
-
-
-
+  <input type="text" name="sobrenome" placeholder="Sobrenome"><br>
+  
+  <input type="text" name="turma" placeholder="Turma"><br>
+  
+  <input id="22" type="submit" value="Gravar">
 </form>
 
 <?php
